@@ -24,9 +24,7 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-          # Ensure your .env file is correctly picked up or set env vars here if needed
-          # For Create React App, REACT_APP_ variables in .env are usually included automatically
-          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }} # We'll set this secret next
+          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }} 
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
