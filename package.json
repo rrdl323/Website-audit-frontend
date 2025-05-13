@@ -1,7 +1,7 @@
 {
   "name": "website-audit-frontend",
   "version": "0.1.0",
-  "https://rrdl323.github.io/Website-audit-frontend",
+  ""homepage": "https://rrdl323.github.io/Website-audit-frontend",
   "private": true,
   "dependencies": {
     "@paypal/react-paypal-js": "^8.8.3",
